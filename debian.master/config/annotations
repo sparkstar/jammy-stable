@@ -13772,9 +13772,6 @@ CONFIG_MODIFY_LDT_SYSCALL                       flag<REVIEW> note<Q: check this 
 CONFIG_MICROCODE                                policy<{'amd64': 'y'}>
 CONFIG_MICROCODE_INTEL                          policy<{'amd64': 'y'}>
 CONFIG_MICROCODE_AMD                            policy<{'amd64': 'y'}>
-CONFIG_MICROCODE_OLD_INTERFACE                  policy<{'amd64': 'y'}>
-#
-CONFIG_MICROCODE_OLD_INTERFACE                  flag<DEPRECATED>
 
 # Menu: Processor type and features >> Endianness
 
