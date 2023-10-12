@@ -834,6 +834,9 @@ CONFIG_ZLIB_DFLTCC                              note<'LP:1830208'>
 CONFIG_ZONE_DMA                                 policy<{'amd64': 'y', 'arm64': 'y', 'armhf-generic-lpae': 'y', 's390x': 'y'}>
 CONFIG_ZONE_DMA                                 note<'LP:1628523'>
 
+CONFIG_WWAN                                     policy<{'amd64': 'm', 'arm64': 'm'}>
+CONFIG_WWAN                                     note<'LP: #2033406'>
+
 
 # ---- Annotations without notes ----
 
